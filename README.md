@@ -1,8 +1,11 @@
 # Ski length calculator
-> A web application (server and client) that helps the user to choose
+
+## Overview
+
+A web application (server and client) that helps the user to choose
   the right length of cross-country skis.
 
-Education client-server application with focus on • Design • Structure • Readabilty • Testability • Maintainability of code.
+Education client-server application with focus on • design • structure • readabilty • testability • maintainability of code.
 
 ![screenshot](skiesApp.png)
 
@@ -42,4 +45,4 @@ Natalia Munina – [Linkedin @munina](https://www.linkedin.com/in/munina/)
 
 Basic sequence diagram
 
-![Basic Sequence Diagram](Basic Sequence Diagram.png)
+![Basic Sequence Diagram](BasicSequenceDiagram.png)
