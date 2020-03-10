@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styleCss.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+    <title>Select your skies</title>
+</head>
+
+<body>
+
+<div class="main-block">
+    <div class="left-part">
+        <h1>What skies do you need</h1>
+        <p>Fill in the form to calculate the length.</p>
+        <h3>Your result will be displayed here: </h3><br>
+        <span id="result" class="text"></span>
+
+    </div>
+    <form>
+        <div class="title">
+            <i class="fas fa-pencil-alt"></i>
+            <h2>Let's start</h2>
+        </div>
+        <div class="info">
+            <input class="length" id="length" type="number" name="length" placeholder="Your body length in cm">
+            <select id = "age">
+                <option value="null" selected>Select your age*</option>
+                <option value="baby">Younger than 4</option>
+                <option value="child">5 to 8</option>
+                <option value="grownup">9 or older</option>
+            </select>
+            <select id = "style">
+                <option value="null" selected>Select your style*</option>
+                <option value="classic" >Classic</option>
+                <option value="freestyle">Freestyle</option>
+            </select>
+        </div>
+        <div class="checkbox" >
+            <input  id="competition" type="checkbox" name="competition"><span> Competing in freestyle?</span>
+        </div>
+
+            <button id="btn_input" type='button'>Calculate</button>
+    </form>
+</div>
+<script src="functions.js"></script>
+
+</body>
+</html>
