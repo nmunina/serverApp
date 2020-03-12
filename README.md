@@ -46,3 +46,6 @@ Natalia Munina – [Linkedin @munina](https://www.linkedin.com/in/munina/)
 Basic sequence diagram
 
 ![Basic Sequence Diagram](BasicSequenceDiagram.png)
+
+Sonarqube token
+57769de2accadf37e3b69cf8355f9f8f4cae7c78

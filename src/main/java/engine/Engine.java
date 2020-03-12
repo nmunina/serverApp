@@ -10,7 +10,10 @@ public class Engine {
     public static final String CASE207 =  "Classic skis are only made for lengths up to 207cm.";
     public static final String DATAMISSING =  "Data is missing.";
 
-    public static boolean isCompeting = false;
+    public static final boolean IS_COMPETING = false;
+
+    private Engine() {
+    }
 
     public static String calculateSkiLength(int bodyLength, String ageGroup, String style, boolean isCompeting) {
 
